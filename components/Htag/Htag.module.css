@@ -1,0 +1,21 @@
+.h1 {
+	font-size: 1.625rem;
+	font-weight: 500;
+	line-height: normal;
+	margin: 0;
+}
+
+.h2 {
+	font-size: 1.375rem;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 1.5rem;
+	margin-top: 3.19rem;
+}
+
+.h3 {
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: normal;
+	margin: 0;
+}

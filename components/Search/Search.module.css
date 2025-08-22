@@ -1,0 +1,18 @@
+.search {
+	position: relative;
+	width: 100%;
+}
+
+.input input {
+	width: 100%;
+}
+
+.button {
+	flex-shrink: 0;
+	height: 1.875rem;
+	padding: 0.44rem;
+	position: absolute;
+	right: 0.19rem;
+	top: 0.19rem;
+	width: 1.875rem;
+}

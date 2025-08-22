@@ -1,0 +1,5 @@
+.sidebar {
+	align-content: start;
+	display: grid;
+	gap: 1.22rem;
+}

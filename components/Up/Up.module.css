@@ -1,0 +1,18 @@
+.up {
+	background: var(--primary);
+	border: none;
+	border-radius: 0.625rem;
+	bottom: 30px;
+	box-shadow: 0 4px 4px 0 rgb(0 0 0 / 5%);
+	cursor: pointer;
+	flex-shrink: 0;
+	height: 2.5rem;
+	position: fixed;
+	right: 30px;
+	transition: background 0.3s ease;
+	width: 2.5rem;
+}
+
+.up:hover {
+	background: var(--primary-hover);
+}
