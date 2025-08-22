@@ -1,9 +1,9 @@
 import { FirstLevelMenuItem } from '../interfaces/menu.interface'
 import { TopLevelCategory } from '../interfaces/page.interface'
-import BooksIcon from './icons/books.svg'
-import CourseIcon from './icons/courses.svg'
-import ProductsIcon from './icons/products.svg'
-import ServicesIcon from './icons/services.svg'
+import BooksIcon from './Icons/books.svg'
+import CourseIcon from './Icons/courses.svg'
+import ProductsIcon from './Icons/products.svg'
+import ServicesIcon from './Icons/services.svg'
 
 
 
