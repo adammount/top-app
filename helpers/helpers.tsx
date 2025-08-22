@@ -1,5 +1,5 @@
-import { FirstLevelMenuItem } from '@/interfaces/menu.interface'
-import { TopLevelCategory } from '@/interfaces/page.interface'
+import { FirstLevelMenuItem } from '../interfaces/menu.interface'
+import { TopLevelCategory } from '../interfaces/page.interface'
 import BooksIcon from './icons/books.svg'
 import CourseIcon from './icons/courses.svg'
 import ProductsIcon from './icons/products.svg'
