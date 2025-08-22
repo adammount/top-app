@@ -1,11 +1,11 @@
-import { AppContext } from '@/context/app.context'
-import { firstLevelMenu } from '@/helpers/helpers'
-import { FirstLevelMenuItem, PageItem } from '@/interfaces/menu.interface'
 import cn from 'classnames'
 import { motion, useReducedMotion } from 'framer-motion'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { JSX, KeyboardEvent, useContext, useState } from 'react'
+import { AppContext } from '../../context/app.context'
+import { firstLevelMenu } from '../../helpers/helpers'
+import { FirstLevelMenuItem, PageItem } from '../../interfaces/menu.interface'
 import styles from './Menu.module.css'
 
 export const Menu = (): JSX.Element => {

@@ -1,11 +1,11 @@
-import { API } from '@/helpers/api'
-import { firstLevelMenu } from '@/helpers/helpers'
-import { MenuItem } from '@/interfaces/menu.interface'
-import { withLayout } from '@/layout/layout'
 import axios from 'axios'
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 import { JSX } from 'react'
+import { API } from '../../helpers/api'
+import { firstLevelMenu } from '../../helpers/helpers'
+import { MenuItem } from '../../interfaces/menu.interface'
+import { withLayout } from '../../layout/layout'
 
 function Type({firstCategory}: TypeProps): JSX.Element {	
 	return (

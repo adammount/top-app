@@ -1,5 +1,5 @@
-import { ReviewModel } from '@/interfaces/product.interface'
 import { DetailedHTMLProps, HTMLAttributes } from 'react'
+import { ReviewModel } from '../../interfaces/product.interface'
 
 export interface ReviewProps
 	extends DetailedHTMLProps<

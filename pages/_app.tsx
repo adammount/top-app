@@ -1,9 +1,9 @@
-import "@/styles/globals.css"
 import type { AppProps } from "next/app"
 import Head from 'next/head'
 import router from 'next/router'
 import { JSX } from 'react'
 import ym, { YMInitializer } from 'react-yandex-metrika'
+import "../styles/globals.css"
 
 router.events.on('routeChangeComplete', (url: string) => {
   if (typeof window !== 'undefined') {

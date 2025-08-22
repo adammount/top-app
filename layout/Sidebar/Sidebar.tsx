@@ -1,6 +1,6 @@
-import { Search } from '@/components'
 import cn from 'classnames'
 import { JSX } from 'react'
+import { Search } from '../../components'
 import Logo from '../logo.svg'
 import { Menu } from '../Menu/Menu'
 import styles from './Sidebar.module.css'

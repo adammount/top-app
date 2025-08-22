@@ -1,7 +1,6 @@
 import { DetailedHTMLProps, HTMLAttributes } from 'react'
 
-export interface SidebarProps extends DetailedHTMLProps<
+export type SidebarProps = DetailedHTMLProps<
 		HTMLAttributes<HTMLDivElement>,
 		HTMLDivElement
 	>
-	 {}

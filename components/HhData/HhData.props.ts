@@ -1,3 +1,3 @@
-import { HhData } from '@/interfaces/page.interface'
+import { HhData } from '../../interfaces/page.interface'
 
 export type HhDataProps = HhData

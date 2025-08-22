@@ -1,6 +1,6 @@
-import { useScrollY } from '@/hooks/useScrollY'
 import { motion, useAnimation } from 'framer-motion'
 import { JSX, useEffect } from 'react'
+import { useScrollY } from '../../hooks/useScrollY'
 import { ButtonIcon } from '../ButtonIcon/ButtonIcon'
 import styles from './Up.module.css'
 

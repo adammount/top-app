@@ -1,9 +1,9 @@
-import { API } from '@/helpers/api'
-import { MenuItem } from '@/interfaces/menu.interface'
 import axios from 'axios'
 import { GetStaticProps } from 'next'
 import { JSX } from 'react'
 import { Htag } from '../components'
+import { API } from '../helpers/api'
+import { MenuItem } from '../interfaces/menu.interface'
 import { withLayout } from '../layout/layout'
 
 function Home({}: HomeProps): JSX.Element {	

@@ -1,5 +1,5 @@
-import { priseRu } from '@/helpers/helpers'
 import { JSX } from 'react'
+import { priseRu } from '../../helpers/helpers'
 import { Card } from '../Card/Card'
 import styles from './HhData.module.css'
 import { HhDataProps } from './HhData.props'
